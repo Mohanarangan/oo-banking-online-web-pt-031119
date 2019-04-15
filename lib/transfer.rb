@@ -20,7 +20,7 @@ class Transfer
       receiver.balance += amount
       self.status = 'complete'
      else
-       self.status = "rejected"
+       "rejected"
     end
     
   end
